@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}This lets us add titles to pages later{% endblock %}</title>
+        {% load static%}
+        <link rel="stylesheet" href="../../static/css/style.css" />
+        <!--normal stylesheet link-->
+        <link
+            rel="stylesheet"
+            href="../../static/css/bootstrap/css/bootstrap.min.css"/>
+        <!--bootstrap link-->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+            integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"/>
+        <!--font awesome link so we can add icons-->
+    </head>
+    <body>
+        <h1>Title</h1>
+        <p>lorem ipsum my code editor cant do this so im just putting filler in here</p>
+        {% block content %} {% endblock %}
+    </body>
+</html>
