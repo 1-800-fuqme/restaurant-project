@@ -12,4 +12,5 @@
 
 #### Terminal commands to use
 - `source ./.venv/bin/activate` - turns on virtual environment so we're all working with the same version of django
+	- `deactivate` in terminal will turn it off
 - `python manage.py runserver` - turns on web server (use control+c while in terminal to turn off the server)
